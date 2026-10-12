@@ -1,14 +1,7 @@
 #!/usr/bin/env python3
-print(
-    "{}".format(
-        "".join([
-            chr(i)
-            for i in range(
-                ord('a'),
-                ord('z') + 1
-            )
-            if chr(i) not in "eq"
-        ])
-    ),
-    end=""
-)
+"""Print alphabet without e and q."""
+
+print("{}".format("".join(
+    chr(i) for i in range(97, 123)
+    if chr(i) not in "eq"
+)), end="")
