@@ -9,8 +9,3 @@ def uppercase(str):
         else:
             result += "{0}".format(c)
     print(result)
-
-
-
-
-    
