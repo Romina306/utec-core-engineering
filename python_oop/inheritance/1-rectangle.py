@@ -8,10 +8,14 @@ BaseGeometry = __import__('base_geometry').BaseGeometry
 
 
 class Rectangle(BaseGeometry):
-    """Representa un rectángulo que hereda validaciones de BaseGeometry."""
+    """Representa un rectángulo que hereda
+    validaciones de BaseGeometry.
+    """
 
     def __init__(self, width, height):
-        """Inicializa un rectángulo validando ancho y alto con integer_validator.
+        """Inicializa un rectángulo validando
+
+        ancho y alto con integer_validator.
         Args:
             width (int): El ancho del rectángulo.
             height (int): El alto del rectángulo.
