@@ -1,4 +1,3 @@
-#!/usr/init/env python3  # noqa: E265
 #!/usr/bin/env python3
 """
 Módulo base_geometry
