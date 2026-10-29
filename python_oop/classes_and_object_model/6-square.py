@@ -7,7 +7,9 @@ Define una clase Square con tamaño, posición,
 
 
 class Square:
-    """Representa un cuadrado con tamaño, posición y representación en cadena."""
+    """Representa un cuadrado con tamaño, posición
+    y representación en cadena.
+    """
 
     def __init__(self, size=0, position=(0, 0)):
         """Inicializa un cuadrado con size y position opcionales.
